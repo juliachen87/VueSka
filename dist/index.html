@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by  julia</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <section class="personal-info">
+    <div class="avatar">
+      <img
+        class="avatar-img"
+        alt=""
+      />
+    </div >
+    <div id="resume">
+     <h1 class="bigname">
+     {{resume.name}}
+    </h1>
+    <h6 class="name">
+      {{resume.egname}}
+    </h6>
+    <div class="title">
+      {{resume.label}}
+    </div>
+    
+    <div class="description">
+     {{resume.school}}
+    </div>
+     <div class="description"><p>
+      {{resume.work}}
+    </div>
+    
+  </section>
+  <section>
+    <div id="label"><h2>
+       {{label.basic}}
+    </h2>
+    <div class="skills">
+      <div class="skill">
+        <h3 class="skill-name">  {{label.skillname}}</h3>
+        <p class="skill-description">
+     <p li v-for = "item in skillname":key="item.id">
+              {{item.content}}
+        </li>
+      </p>
+        </p>
+      </div>
+      <div class="skill">
+        <h3 class="skill-name">{{label.skillname2}}</h3>
+        <p class="skill-description">
+         <p li v-for = "item in skillname2":key="item.id">
+              {{item.content}}
+        </li>
+      </p>
+        </p>
+      </div>
+      <div class="skill">
+        <h3 class="skill-name">{{label.skillname3}}
+</h3>
+        <p class="skill-description">
+              <p li v-for = "item in skillname2":key="item.id">
+              {{item.content}}
+        </li>
+</p>
+      </p>
+      </div>
+    </div>
+  </section>
+  <section>
+    </div>
+<div id="experience">
+    <h2 class="job-experience">  {{experience.name}}</h2>
+   <div class="skills">
+      <div class="experience-item">
+       <h3 class="job-title">{{experience.tiname}}</h3>
+        <p>{{experience.tiname1}}</p>
+        <span class="duration">{{experience.tinamet}}
+          <i class="far fa-calendar-alt"></i></span
+        >
+      </div>
+      <hr class="divide" />
+
+     <div class="experience-item">
+       <h3 class="job-title">{{experience.ti2name}}</h3>
+        <p>{{experience.ti2name1}}</p>
+        <span class="duration">{{experience.ti2namet}}
+          <i class="far fa-calendar-alt"></i></span
+        >
+      </div>
+ 
+      <hr class="divide" />
+      <div class="experience-item">
+       <h3 class="job-title">{{experience.ti3name}}</h3>
+        <p>{{experience.ti3name1}}</p>
+        <span class="duration">{{experience.ti3namet}}
+          <i class="far fa-calendar-alt"></i></span
+        >
+      </div>
+  </section>
+
+</main>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/script.js/2.5.9/script.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
