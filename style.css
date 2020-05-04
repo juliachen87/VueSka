@@ -1,0 +1,112 @@
+html,
+body {
+  font-family: 'Lato', 'Noto Sans TC', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+font-family: "微軟正黑體",sans-serif;
+}
+
+.nav-title {
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+}
+
+/**
+ * Main
+**/
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 24px 0 8px;
+}
+
+h3 {
+  font-size: 21px;
+  margin: 0 0 8px 0;
+
+}
+
+section {
+  margin-bottom: 48px;
+}
+
+p,
+.description {
+  color: white;
+}
+
+/* Personal Info */
+.avatar {
+  text-align: center;
+}
+.avatar-img {
+  border-radius: 50%;
+}
+.name {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+.bigname {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #ff6600;
+ 
+}
+
+/* Skills Section */
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+.skill {
+  width: 30%;
+}
+h3.skill-name {
+  border-top: 1px solid #999999;
+  padding-top: 16px;
+}
+
+/* Experience Section */
+.experience-item {
+   color: #FFCC6E;
+   text-align:left;　
+}
+.divide {
+  border: 0;
+  height: 1px;
+  background: #cccccc;
+  margin: 20px 0;
+ width: 50%;
+}
+
+.company,
+.duration {
+  color: #666666;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.fa-building,
+.fa-calendar-alt {
+  margin-right: 5px;
+}
